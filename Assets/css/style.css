@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+@font-face {
+    font-family: "Rajdhani" ;
+    src: url(../police/Rajdhani-Medium.ttf);
+}
+
+:root{
+    --yellow-color: #FFFF00;
+    --yellow-light: #F8F184;
+    --blue-color: #19587D;
+    --red-color: #B11313;
+    --black-gena: #0D0E09;
+    --gris-color: #c4c4c4;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Rajdhani";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button{
+    font-family: "Rajdhani";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Space-Grotesk";
+    font-weight: 300;
+    margin: auto;
+}
+
+/* Design de la navigation */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul a{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Rajdhani";
+}
+
+nav ul a:hover{
+    color: var(--yellow-color);
+}
+
+/* Design de la partie Hero */
+
+#hero{
+    background-image: url(/Assets/Illustrations/Bathome1.png);
+}
